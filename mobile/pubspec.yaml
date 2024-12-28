@@ -1,0 +1,39 @@
+name: mobile
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  flutter_dotenv: ^5.1.0
+  shared_preferences: ^2.2.2
+  socket_io_client: ^2.0.0
+  image_picker: ^0.8.6
+  intl: ^0.18.0
+  flutter_local_notifications: ^16.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/avatar.jpg
+    - assets/images/cover.jpg
+    - assets/images/medicine.jpg
+    - assets/images/vietnam_flag.png
+    - .env
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/lobster-regular.ttf

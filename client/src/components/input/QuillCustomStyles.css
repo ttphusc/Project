@@ -1,0 +1,16 @@
+/* Custom text styling for ReactQuill editor */
+.ql-editor {
+  color: #9cb6dd; /* Text color */
+  font-size: 1.5rem; /* 2xl font size */
+  font-weight: 600; /* font-semibold */
+  padding: 1.25rem; /* padding equivalent to p-5 */
+}
+
+/* Custom placeholder styling */
+.ql-editor.ql-blank::before {
+  color: #9cb6dd; /* Placeholder color */
+  font-size: 1.5rem; /* 2xl font size */
+  font-weight: 600; /* font-semibold */
+  /* padding: 1.25rem; padding equivalent to p-5 */
+  opacity: 0.6; /* Adjust opacity if necessary */
+}

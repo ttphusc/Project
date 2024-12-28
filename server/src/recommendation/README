@@ -1,0 +1,27 @@
+deactivate
+rm -rf venv
+python3 -m venv venv  
+source venv/bin/activate
+pip install --upgrade pip  
+pip install scikit-learn numpy pandas 
+
+python3 -c "import sklearn; print(sklearn.__version__)"       
+python3 -c "import numpy; print(numpy.__version__)"
+python3 -c "import pandas; print(pandas.__version__)"
+
+source venv/bin/activate   
+cd server
+npm run devdeactivate
+rm -rf venv
+python3 -m venv venv  
+source venv/bin/activate
+pip install --upgrade pip  
+pip install scikit-learn numpy pandas 
+
+python3 -c "import sklearn; print(sklearn.__version__)"       
+python3 -c "import numpy; print(numpy.__version__)"
+python3 -c "import pandas; print(pandas.__version__)"
+
+source venv/bin/activate   
+cd server
+npm run dev

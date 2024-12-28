@@ -1,0 +1,13 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes spin {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.15;
+  }
+}
